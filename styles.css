@@ -1,0 +1,144 @@
+body {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: Arial;
+}
+
+.padding-site {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.main-header {
+  width: 100%;  
+  background-color: #445161;
+  color: #fff;
+}
+
+.main-header:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.main-header-wrp {
+  width: 452px;
+  float: left;
+}
+
+.main-header-title { 
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.main-header-list {
+  margin: 0;
+  padding: 30px 0 0 36px;
+  list-style-image: url(img/check_icon_346.png);
+}
+
+.main-header-list li {  
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.main-header-photo {
+  display: block;
+  float: right;
+  width: 469px;
+  height: 214px;
+  background-color: #ffffff;
+  color: black;
+}
+
+.main-content {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-content-about:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.main-content-about-wrp {
+  width: 653px;
+  float: left;
+}
+
+.main-content-about-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+}
+
+.main-content-about-text {  
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.main-content-about-video {
+  width: 430px;
+  height: 245px;
+  background-color: #445161;
+  float: right;
+  color: white;
+}
+
+.main-content-pluses {
+  width: 100%;  
+  background-color: #f5f5f5;
+}
+
+.main-content-pluses-title {
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+}
+
+.main-content-pluses-list {
+  list-style: none;
+  margin: 0;
+  padding: 29px 0 0 0;
+  column-count: 2;
+}
+
+.main-content-pluses-list li {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+  padding: 0 0 35px 40px; 
+  position: relative;
+}
+
+.main-content-pluses-list li:nth-child(3n) {
+  padding-bottom: 0;
+}
+
+.main-content-pluses-list li:before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(img/layer_2_30.png);
+  background-size: cover; 
+  background-color: #445161;
+  left: -5px;
+  top: 5px;
+  position: absolute;  
+}
+
